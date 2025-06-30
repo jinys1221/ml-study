@@ -47,13 +47,21 @@
 ---
 
 ## 7. 모델 성능 평가
-- model.score(X_train, y_train)` → 학습 데이터 R² 점수
-- model.score(X_test, y_test)` → 테스트 데이터 R² 점수
+- model.score(X_train, y_train) → 학습 데이터 R² 점수
+- model.score(X_test, y_test) → 테스트 데이터 R² 점수
 
 > 📈 R² 점수는 1에 가까울수록 모델 성능이 우수함
 
 ---
 
-## 8. 느낀 점
-- 단순 선형 회귀는 직관적이고 시각화하면서 보기 쉬움
-- 실제로 noise를 제거해보니까 R²이 오르는 것을 확인할 수 있다.
+## 8. 제공되는 함수
+- make_regression 파이썬 내 제공되는 회귀함수
+- 
+> 해봤으나 비슷한 성능을 보인다.
+
+## 9. 하이퍼 파라미터
+- True, False
+- pipeline을 이용한 StandardScaler 적용
+
+> MSE의 값이 큰 차이가 나지는 않는다.
+
