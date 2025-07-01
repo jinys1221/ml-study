@@ -11,3 +11,4 @@
 - `01_linear_regression.ipynb`: 실습 노트북
 - `notes.md`: 개념 정리 마크다운 파일
 - `result_plot.png`: 예측 결과 시각화 이미지
+- `log.md`: 코드 수정 기록 파일
